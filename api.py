@@ -16,7 +16,6 @@ def run_pipeline():
     decisions = analyze_campaigns(df)
     save_decisions(decisions)
 
-    # transforma em lista flat (BI gosta disso)
     result = []
     for status, items in decisions.items():
         for item in items:
@@ -32,3 +31,4 @@ def run_pipeline():
 @app.get("/pipeline/results")
 def get_results():
     return PIPELINE_RESULT
+
