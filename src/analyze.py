@@ -4,7 +4,7 @@ import pandas as pd
 from groq import Groq
 from dotenv import load_dotenv
 
-load_dotenv()  # carrega o .env
+load_dotenv()  
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
@@ -69,3 +69,4 @@ Responda SOMENTE em JSON no formato:
 
     content = response.choices[0].message.content
     return json.loads(content)
+
