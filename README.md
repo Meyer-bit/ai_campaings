@@ -138,5 +138,28 @@ Ele reflete uma abordagem moderna de uso de IA, focada em **impacto no negócio*
 
 ---
 
+## 📊 Dashboard no Power BI
+
+O dashboard foi desenvolvido para visualizar as decisões geradas pela IA sobre campanhas de marketing digital.
+
+### Principais indicadores exibidos:
+- Quantidade de campanhas recomendadas para **escalar**
+- Quantidade de campanhas recomendadas para **pausar**
+- Campanhas em **observação/teste**
+- Decisão da IA por campanha
+- Análise visual clara para apoio à tomada de decisão
+
+### Destaques do dashboard:
+- Cores semânticas:
+  - 🟢 Escalar (alto desempenho)
+  - 🔴 Pausar (baixo desempenho)
+  - 🟡 Testar (necessita mais dados)
+- KPIs destacados no topo para leitura rápida
+- Visual focado em gestores e analistas de marketing
+
+### Prints do Dashboard
+![Visão Geral](dashboard/screenshots/overview.png)
+
+
 ## Conclusão
 O **AI Ads Agent** une **dados, inteligência artificial e engenharia de software**, mostrando como a IA pode ser utilizada como suporte real à tomada de decisão, de forma explicável, integrada e orientada a resultados.
