@@ -152,6 +152,7 @@ uvicorn api:app --reload
 Swagger: http://127.0.0.1:8000/docs
 Executar pipeline: POST /pipeline/run
 Consultar decisões: GET /decisions
+```
 
 ## Tecnologias Utilizadas
 - Python
@@ -160,7 +161,7 @@ Consultar decisões: GET /decisions
 - Large Language Model (LLM)
 - Power BI
 - CSV como fonte de dados
-```
+
 ---
 
 ## Aprendizados e Diferenciais
